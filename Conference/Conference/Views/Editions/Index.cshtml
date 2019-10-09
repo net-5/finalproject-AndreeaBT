@@ -1,0 +1,101 @@
+﻿@model IEnumerable<Conference.Domain.Entities.Editions>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<link href="~/css/Speakers.css" rel="stylesheet" />
+<link href="~/lib/font/css/all.min.css" rel="stylesheet" />
+<link href="~/lib/font/css/fontawesome.min.css" rel="stylesheet" />
+<div class="">
+
+   
+
+    <div class="container">
+        <div class="row parent">
+            <div class="col-sm-12 col-lg-3 child" style="background-image:url(https://dndays.blob.core.windows.net/img/91/alex-thissen.png.webp)">
+
+                <div class="details">
+                    <a class="link" asp-controller="Speakers" asp-action="Index" >
+                        <span class="name">Alex Thissen</span>
+                        <span class="position">Cloud architect</span>
+                        <span class="position">Xpirit</span>
+
+                    </a>
+                    <ul class="speaker-socials">
+                        <li>
+                            <a target="_blank" class="link d-inline" href="https://twitter.com/alexthissen">
+                                
+                                    <img src="~/Images/descărcare.png" width="30" />
+                              
+                            </a>
+                        </li>
+
+                    </ul>
+
+
+                </div>
+
+
+            </div>
+            <div class="col-sm-12 col-lg-3 child" style="background-image:url(https://dndays.blob.core.windows.net/img/92/alex-mang.png.webp)">
+
+                <div class="details">
+                    <a class="link" asp-controller="Speakers" asp-action="Index">
+                        <span class="name">Alex Mang</span>
+                        <span class="position">CEO, Microsoft MVP&amp; RD</span>
+                        <span class="position">KeyTicket Solutions</span>
+
+                    </a>
+                    <ul class="speaker-socials">
+                        <li>
+                            <a target="_blank" class="link d-inline" href="https://twitter.com/iamalexmang">
+                                <img src="~/Images/descărcare.png" width="30" />
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" class="link d-inline" href="https://alexmang.com/">
+                                <img src="~/Images/chain.png" width="30" />
+                            </a>
+                        </li>
+
+                    </ul>
+
+
+                </div>
+
+
+            </div>
+            <div class="col-sm-12 col-lg-3 child" style="background-image:url(https://dndays.blob.core.windows.net/img/94/dennis-doomen.png.webp)">
+
+                <div class="details">
+                    <a class="link" asp-controller="Speakers" asp-action="Index">
+                        <span class="name">Dennis Doomen</span>
+                        <span class="position">Software Architect</span>
+                        <span class="position">Aviva Solutions</span>
+
+                    </a>
+                    <ul class="speaker-socials">
+                        <li>
+                            <a target="_blank" class="link d-inline" href="https://twitter.com/ddoomen">
+                                <img src="~/Images/descărcare.png" width="30" />
+                            </a>
+                        </li>
+
+                    </ul>
+
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+</div>

@@ -1,0 +1,14 @@
+C:\Users\barbu\source\repos\Conference\Conference.Services\bin\Debug\netstandard2.0\Conference.Services.deps.json
+C:\Users\barbu\source\repos\Conference\Conference.Services\bin\Debug\netstandard2.0\Conference.Services.dll
+C:\Users\barbu\source\repos\Conference\Conference.Services\obj\Debug\netstandard2.0\Conference.Services.csproj.CoreCompileInputs.cache
+C:\Users\barbu\source\repos\Conference\Conference.Services\obj\Debug\netstandard2.0\Conference.Services.AssemblyInfoInputs.cache
+C:\Users\barbu\source\repos\Conference\Conference.Services\obj\Debug\netstandard2.0\Conference.Services.AssemblyInfo.cs
+C:\Users\barbu\source\repos\Conference\Conference.Services\obj\Debug\netstandard2.0\Conference.Services.csprojAssemblyReference.cache
+C:\Users\barbu\source\repos\Conference\Conference.Services\bin\Debug\netstandard2.0\Conference.Services.pdb
+C:\Users\barbu\source\repos\Conference\Conference.Services\obj\Debug\netstandard2.0\Conference.Services.dll
+C:\Users\barbu\source\repos\Conference\Conference.Services\obj\Debug\netstandard2.0\Conference.Services.pdb
+C:\Users\barbu\source\repos\Conference\Conference.Services\bin\Debug\netstandard2.0\Conference.Data.dll
+C:\Users\barbu\source\repos\Conference\Conference.Services\bin\Debug\netstandard2.0\Conference.Domain.dll
+C:\Users\barbu\source\repos\Conference\Conference.Services\bin\Debug\netstandard2.0\Conference.Data.pdb
+C:\Users\barbu\source\repos\Conference\Conference.Services\bin\Debug\netstandard2.0\Conference.Domain.pdb
+C:\Users\barbu\source\repos\Conference\Conference.Services\obj\Debug\netstandard2.0\Conference.Services.csproj.CopyComplete

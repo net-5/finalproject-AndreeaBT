@@ -1,0 +1,376 @@
+﻿ /*Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. 
+index
+.style-svg {
+    fill: #442359;
+    height: 75px;
+    text-align: center;
+}
+
+.n-item {
+    margin-bottom: 3rem;
+}
+
+#conf-info {
+    background-image: url("../images/bckg_full_width_2cip.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: cover;
+    color: #fff;
+    padding-bottom: 7.5rem;
+    padding-top: 7.5rem;
+    height: 20rem;
+}
+
+
+#register {
+    background-image: url("../images/bckg_full_width_3crop.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: cover;
+    color: #fff;
+    padding-bottom: 7.5rem;
+    padding-top: 7.5rem;
+}
+
+section {
+    padding-bottom: 4.5rem;
+    padding-top: 2.5rem;
+}
+
+h3.special {
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 1.1;
+    letter-spacing: 0em;
+    color: #6ec2e9;
+    word-wrap: break-word;
+    font-size: 3.5rem;
+}
+
+.content {
+    min-height: calc(60vh - 7rem);
+}
+
+footer {
+    bottom: 0;
+}
+
+ul.socials-nav {
+    text-align: center;
+}
+
+    ul.socials-nav > li {
+        display: inline-block;
+        margin-right: 2rem;
+    }
+
+li.social a {
+    font-size: 4rem;
+}
+body {
+}
+
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.bg-mv {
+    height: 71px;
+    width: 1519px;
+    background-color: #442359;
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: .5rem 1rem;
+}
+
+    .navbar-dark .navbar-nav .navbar-link :hover{
+        color:none;
+    }
+    .navbar > .container-fluid {
+        height: 71px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+a {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+    a:hover {
+        background-color: #fff;
+    }
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+@media (max-width: 992px) {
+
+    .navbar-expand-lg .navbar-collapse {
+        display: flex !important;
+        flex-basis: auto;
+    }
+}
+
+@media (min-width: 400px) {
+
+    .navbar-expand-lg .navbar-nav {
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+}
+@media (min-width: 400px) {
+    .navbar-expand-lg .navbar-toggler {
+        display: block;
+    }
+}
+
+.justify-content-end {
+    justify-content: flex-end !important;
+}
+
+.flex-fill {
+    flex: 1 1 auto !important;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+.navbar-nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+dl, ol, ul {
+    margin-top: 0;
+}
+
+#main-menu .nav-item {
+    padding-right: 1rem;
+    border-bottom: 1px solid transparent;
+}
+
+li {
+    align-items: center;
+    display: list-item;
+    text-align: match-parent;
+}
+
+.navbar-dark .navbar-brand {
+    height: 71px;
+    color: #fff;
+}
+img.face, img.tw, img.me {
+    width: 30px;
+    align-self:center;
+}
+.menu-socials .fab {
+    font-size: 2.4rem;
+    line-height: 2.4rem;
+}
+
+.fa, .fab, .fal, .far, .fas {
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+}
+
+.menu-socials li a {
+    margin: 0;
+    padding: 0;
+    padding-right: 0.8rem;
+    color: white;
+}
+
+.menu-socials {
+    display: inline-flex;
+    list-style: none;
+    margin: 0;
+    line-height: 2.4rem;
+    font-size: 2.4rem;
+}
+
+ul {
+    align-items: center;
+    display: block;
+    list-style-type: disc;
+    margin-left: 1em;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right:0px;
+    margin-bottom:0px;
+    width:60px;
+   height:24px;
+}
+
+li {
+    display: list-item;
+    text-align: center;
+}
+
+.fa-facebook:before {
+    content: "\f09a";
+}
+
+.fa-twitter:before {
+    content: "\f099";
+}
+
+.fa-meetup:before {
+    content: "\f2e0";
+}
+
+script {
+    display: none;
+}
+
+#hero {
+    background-image: url('../images/conf 1@2x.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: cover;
+    color: #fff;
+}
+
+
+#hero .hero-heading-top {
+    text-align: center;
+    font-family: Roboto;
+    font-weight: 600;
+    line-height: 1.9rem;
+    text-transform: uppercase;
+    color: #6EC2E8;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.btns-container .btn-main.btn-large {
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.btns-container .btn-main {
+    background-color: #6EC2E8;
+    color: #442359;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+
+
+.navbar-expand-lg .navbar-toggler {
+    display: none;
+}
+
+
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    content: "";
+    background: no-repeat center center;
+    background-size: 100% 100%;
+}
+
+div {
+    display: block;
+}
+
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+}
+
+button {
+    -webkit- writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: center;
+    font: 400 13.3333px Arial;
+}
+
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+[type=button], [type=reset], [type=submit], button {
+    -webkit-appearance: button;
+}
+
+button , input {
+    overflow: visible;
+}
+.fa-facebook:before {
+    content: "\f09a";
+}
+.fa-twitter:before {
+    content: "\f099";
+}
+.fa-meetup:before {
+    content: "\f2e0";
+}*/
+
+

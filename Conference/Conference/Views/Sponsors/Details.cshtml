@@ -1,0 +1,195 @@
+﻿@model Conference.Domain.Entities.Sponsors
+
+@{
+    ViewData["Title"] = "Details";
+}
+<link href="~/css/Index.css" rel="stylesheet" />
+<link href="~/lib/font/css/all.min.css" rel="stylesheet" />
+<link href="~/lib/font/css/fontawesome.min.css" rel="stylesheet" />
+@*<div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 col-md-5 space-big space">
+                @if (Model.Name == "Fab Lab Iasi")
+                {
+                    <h1 class="title">@Html.DisplayFor(model => model.SponsorTypeId)</h1>
+                    <h2 class="subtitle blue ">@Html.DisplayFor(model => model.Name)</h2>
+
+                    <div class="speaker-socials blue">
+                        <ul>
+                            <li>
+                                <a target="_blank" class="link d-inline" href="https://twitter.com/fablab">
+                                    <img src="~/Images/descărcare.png" width="30" />
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                }
+                @if (Model.Name == "Fab Lab Iasi")
+                {
+                    <div class="text">
+                        @Html.DisplayNameFor(model => model.Description)
+                    </div>
+                }
+                <div class="col-xs-12 col-md-3 bg-mv text-center space">
+
+
+                    <div class="talk-title white text-left">
+
+
+                    </div>
+
+                    <div style="height:15rem"></div>
+
+                </div>
+                <a asp-action="Index" style="color: #6ec2e9">Back to List</a>
+            </div>
+        </div>
+    </div>*@
+
+
+
+<div class="">
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-xs-12 col-md-2 offset-md-2 space-big space">
+                @if (Model.Name == "Fab Lab Iasi")
+                {
+                    <div>
+                        <img class="img-responsive img-fluid" src="~/Images/dark-fablab@2x.png" alt="Alternate Text">
+                    </div>
+                }
+                @if (Model.Name == ".Net Iasi")
+                {
+                    <div>
+                        <img class="img-responsive img-fluid" src="~/Images/dark-dotnetiasi.png" alt="Alternate Text">
+                    </div>
+                }
+                @if (Model.Name == "Microsoft")
+                {
+                    <div>
+                        <img class="img-responsive img-fluid" src="~/Images/dark-microsoft@2x.png" alt="Alternate Text">
+                    </div>
+                }
+
+            </div>
+            <div class="col-xs-12 col-md-5 space-big space">
+
+                <h1 class="title">@Html.DisplayFor(model => model.Name)</h1>
+                
+                <div class="speaker-socials blue">
+                    <ul>
+                        <li>
+                            <a target="_blank" class="link d-inline" href="https://twitter.com/fablab">
+                                <img src="~/Images/BlueTwitter.png" width="30" />
+                            </a>
+
+                        </li>
+                        <li>
+                            <a target="_blank" class="link d-inline" href="@Html.DisplayFor(model => model.Facebook)">
+                                <img src="~/Images/blueFacebook.jpg" width="30" />
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="text">
+                    @if (Model.Name == "Fab Lab Iasi")
+                    {
+                        <p>@Html.DisplayFor(model => model.Description)</p>
+                    }
+                    @if (Model.Name == ".Net Iasi")
+                    {
+                        <p>@Html.DisplayFor(model => model.Description)</p>
+                    }
+                    @if (Model.Name == "Microsoft")
+                    {
+                        <p>@Html.DisplayFor(model => model.Description)</p>
+                    }
+                    <a class="subtitle blue"  asp-action="Index">Back to List</a>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-3 bg-mv text-center space">
+
+                    <div class="talk-title white text-left">
+                        
+
+                    </div>
+             
+                
+                <div style="height:15rem"></div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+@*<div>
+        <h4>Sponsors</h4>
+        <hr />
+        <dl class="row">
+            <dt class = "col-sm-2">
+                @Html.DisplayNameFor(model => model.Id)
+            </dt>
+            <dd class = "col-sm-10">
+                @Html.DisplayFor(model => model.Id)
+            </dd>
+            <dt class = "col-sm-2">
+                @Html.DisplayNameFor(model => model.Name)
+            </dt>
+            <dd class = "col-sm-10">
+                @Html.DisplayFor(model => model.Name)
+            </dd>
+            <dt class = "col-sm-2">
+                @Html.DisplayNameFor(model => model.Website)
+            </dt>
+            <dd class = "col-sm-10">
+                @Html.DisplayFor(model => model.Website)
+            </dd>
+            <dt class = "col-sm-2">
+                @Html.DisplayNameFor(model => model.Facebook)
+            </dt>
+            <dd class = "col-sm-10">
+                @Html.DisplayFor(model => model.Facebook)
+            </dd>
+            <dt class = "col-sm-2">
+                @Html.DisplayNameFor(model => model.Description)
+            </dt>
+            <dd class = "col-sm-10">
+                @Html.DisplayFor(model => model.Description)
+            </dd>
+            <dt class = "col-sm-2">
+                @Html.DisplayNameFor(model => model.PageSlug)
+            </dt>
+            <dd class = "col-sm-10">
+                @Html.DisplayFor(model => model.PageSlug)
+            </dd>
+            <dt class = "col-sm-2">
+                @Html.DisplayNameFor(model => model.SponsorTypeId)
+            </dt>
+            <dd class = "col-sm-10">
+                @Html.DisplayFor(model => model.SponsorTypeId)
+            </dd>
+            <dt class = "col-sm-2">
+                @Html.DisplayNameFor(model => model.Active)
+            </dt>
+            <dd class = "col-sm-10">
+                @Html.DisplayFor(model => model.Active)
+            </dd>
+            <dt class = "col-sm-2">
+                @Html.DisplayNameFor(model => model.Edition)
+            </dt>
+            <dd class = "col-sm-10">
+                @Html.DisplayFor(model => model.Edition)
+            </dd>
+        </dl>
+    </div>
+    <div>
+        @Html.ActionLink("Edit", "Edit", new {  id = Model.Id }) |
+        <a asp-action="Index">Back to List</a>
+    </div>*@

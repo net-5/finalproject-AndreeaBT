@@ -1,0 +1,206 @@
+﻿
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>@ViewData["Title"] - Conference</title>
+
+        <environment include="Development">
+            <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+        </environment>
+        <environment exclude="Development">
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+                  asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
+                  asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute"
+                  crossorigin="anonymous"
+                  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"/>
+        </environment>
+        <link href="~/lib/font/css/all.min.css" rel="stylesheet" />
+        <link href="~/lib/font/css/fontawesome.min.css" rel="stylesheet" />
+        <link href="~/css/Index.css" rel="stylesheet" />
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark navbar-default bg-mv">
+                <div class="container-fluid">
+                    <a class="navbar-brand active" href="http://localhost:61714/">
+                        <img class="img-responsive" id="logo_icon" src="~/Images/brand-dotnet.png" alt="http://localhost:61714/" style="width: 190px; height:70px;">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="navbar-collapse collapse">
+                        <ul class="navbar-nav justify-content-end d-flex flex-fill" id="main-menu">
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="About" asp-action="Index">ABOUT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="Editions" asp-action="Index">EDITIONS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="Speakers" asp-action="Index">SPEAKERS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="Sponsors" asp-action="Index">SPONSORS</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="Talks" asp-action="Index">TALKS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="Workshops" asp-action="Index">WORKSHOPS</a>
+                            </li>
+                            
+                            <li>
+                                <a class="nav-link" target="_blank" href="https://www.papercall.io/dotnetdaysro">CFP</a>
+                            </li>
+
+
+
+                        </ul>
+                        <ul class="menu-socials">
+                            <li class="nav-item">
+                                <a href="http://facebook.com/dotnetdays.ro" target="_blank">
+                                    <img src="~/Images/facebook.png" class="img-fluid" alt="left" width="33" />
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://twitter.com/dotnetdaysro" target="_blank">
+                                    <img src="~/Images/descărcare.png" class="img-fluid" align="left" width="30" />
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://meetup.com/NET-User-Group-Iasi/" target="_blank">
+                                    <img src="~/Images/meetup.png" width="28" />
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                </div>
+            </nav>
+        </header>
+
+        <div class="container">
+            <div class="row parent">
+                
+               
+            </div>
+        </div>
+
+        
+            <partial name="_CookieConsentPartial" />
+            <main role="main" class="pb-3"  style="padding-bottom:0";>
+                @RenderBody()
+            </main>
+       
+
+
+            <div id="newsletter" class="">
+                <div class="newsletter-bg">
+                    <div class="col-md-4 offset-md-2 col-sm-12 offset-sm-0">
+                        <span class="title white float-right ">Stay tuned!</span>
+                        <span class="subtitle white float-right text-right">You’ll be the first to know when things get in motion or we have something new to share.</span>
+
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="inputs">
+                            <input type="email" class="float-left col-sm-12 col-md-6 transparent" id="Email" name="Email" value="" placeholder="Email address*">
+                            <span id="result" class="white" style="display: none;">Please check your email to confirm subscription!</span>
+                            <button onclick="subscribe();" class="col-sm-12 col-md-6 btn btn-primary btn-small">Subscribe to our newsletter</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+
+
+        <footer class="footer">
+            <div class="container pb-3">
+                <div class="row">
+                    <div class="about col-xs-12 col-md-4">
+                        <ul>
+
+                            <li>
+                                <a href="mailto:info@dotnetdays.ro">Contact Us</a>
+                            </li>
+                            <li>
+                                <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                            </li>
+                            <li>
+                                <a asp-area="" asp-controller="Conditions" asp-action="Index">Code of Conduct</a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                    <div class="current-edition col-xs-12 col-md-4">
+                        <ul>
+                        </ul>
+                    </div>
+
+                    <div class="socials col-xs-12 col-md-4">
+                        <h4>Follow us</h4>
+                        <ul class="socials-nav align-right">
+                            <li class="social">
+                                <a href="http://facebook.com/dotnetdays.ro" target="_blank">
+                                    <span class="fab-fa-facebook">
+                                        <img src="~/Images/facebook.png" width="40" />
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="social">
+                                <a href="https://twitter.com/dotnetdaysro" target="_blank">
+                                    
+                                        <img src="~/Images/descărcare.png"  width="40" />
+                                   
+                                </a>
+                            </li>
+                            <li class="social">
+                                <a href="https://meetup.com/NET-User-Group-Iasi/" target="_blank">
+
+                                    <img src="~/Images/meetup.png" class="fa-image" width="36"/>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+
+                </div>
+                <div class="row">
+                    <div class="text-center col-sm-12">© 2019 - DotNetIasi</div>
+                </div>
+            </div>
+        </footer>
+
+
+        <environment include="Development">
+            <script src="~/lib/jquery/dist/jquery.js"></script>
+            <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.js"></script>
+        </environment>
+        <environment exclude="Development">
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+                    asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
+                    asp-fallback-test="window.jQuery"
+                    crossorigin="anonymous"
+                    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=">
+            </script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"
+                    asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+                    asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal"
+                    crossorigin="anonymous"
+                    integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o">
+            </script>
+        </environment>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+
+        @RenderSection("Scripts", required: false)
+    </body>
+    </html>
