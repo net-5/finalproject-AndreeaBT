@@ -294,7 +294,7 @@ input[type=text].transparent {
     margin-bottom: 3rem;
 }
 
-/*#conf-info {
+#conf-info {
     background-image: url("../images/bckg_full_width_2cip.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -317,7 +317,7 @@ input[type=text].transparent {
     color: #fff;
     padding-bottom: 7.5rem;
     padding-top: 7.5rem;
-}*/
+}
 
 section {
     padding-bottom: 4.5rem;
@@ -460,7 +460,13 @@ li.social a {
         font-size: 1.4rem;
         line-height: 1.6rem;
     }
-
+@media (min-width: 992px) {
+    .col-lg-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
 .parent {
     display: flex;
 }
@@ -470,7 +476,7 @@ li.social a {
         padding: 0;
         height: 54rem;
         background-position: top;
-        background-size: contain;
+        /*background-size: contain;*/
         flex-wrap: wrap;
         align-content: flex-end;
         background-repeat: no-repeat;

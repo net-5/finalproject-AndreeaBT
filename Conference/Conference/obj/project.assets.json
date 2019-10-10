@@ -13040,11 +13040,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\barbu\\source\\repos\\Conference\\Conference\\Conference.csproj",
+      "projectUniqueName": "C:\\Users\\barbu\\source\\repos\\Last Project\\Conference\\Conference\\Conference.csproj",
       "projectName": "Conference",
-      "projectPath": "C:\\Users\\barbu\\source\\repos\\Conference\\Conference\\Conference.csproj",
+      "projectPath": "C:\\Users\\barbu\\source\\repos\\Last Project\\Conference\\Conference\\Conference.csproj",
       "packagesPath": "C:\\Users\\barbu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\barbu\\source\\repos\\Conference\\Conference\\obj\\",
+      "outputPath": "C:\\Users\\barbu\\source\\repos\\Last Project\\Conference\\Conference\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13063,14 +13063,14 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\barbu\\source\\repos\\Conference\\Conference.Data\\Conference.Data.csproj": {
-              "projectPath": "C:\\Users\\barbu\\source\\repos\\Conference\\Conference.Data\\Conference.Data.csproj"
+            "C:\\Users\\barbu\\source\\repos\\Last Project\\Conference\\Conference.Data\\Conference.Data.csproj": {
+              "projectPath": "C:\\Users\\barbu\\source\\repos\\Last Project\\Conference\\Conference.Data\\Conference.Data.csproj"
             },
-            "C:\\Users\\barbu\\source\\repos\\Conference\\Conference.Domain\\Conference.Domain.csproj": {
-              "projectPath": "C:\\Users\\barbu\\source\\repos\\Conference\\Conference.Domain\\Conference.Domain.csproj"
+            "C:\\Users\\barbu\\source\\repos\\Last Project\\Conference\\Conference.Domain\\Conference.Domain.csproj": {
+              "projectPath": "C:\\Users\\barbu\\source\\repos\\Last Project\\Conference\\Conference.Domain\\Conference.Domain.csproj"
             },
-            "C:\\Users\\barbu\\source\\repos\\Conference\\Conference.Services\\Conference.Services.csproj": {
-              "projectPath": "C:\\Users\\barbu\\source\\repos\\Conference\\Conference.Services\\Conference.Services.csproj"
+            "C:\\Users\\barbu\\source\\repos\\Last Project\\Conference\\Conference.Services\\Conference.Services.csproj": {
+              "projectPath": "C:\\Users\\barbu\\source\\repos\\Last Project\\Conference\\Conference.Services\\Conference.Services.csproj"
             }
           }
         }

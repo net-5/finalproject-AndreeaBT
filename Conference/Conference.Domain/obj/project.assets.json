@@ -3248,11 +3248,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\barbu\\source\\repos\\Conference\\Conference.Domain\\Conference.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\barbu\\source\\repos\\Last Project\\Conference\\Conference.Domain\\Conference.Domain.csproj",
       "projectName": "Conference.Domain",
-      "projectPath": "C:\\Users\\barbu\\source\\repos\\Conference\\Conference.Domain\\Conference.Domain.csproj",
+      "projectPath": "C:\\Users\\barbu\\source\\repos\\Last Project\\Conference\\Conference.Domain\\Conference.Domain.csproj",
       "packagesPath": "C:\\Users\\barbu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\barbu\\source\\repos\\Conference\\Conference.Domain\\obj\\",
+      "outputPath": "C:\\Users\\barbu\\source\\repos\\Last Project\\Conference\\Conference.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

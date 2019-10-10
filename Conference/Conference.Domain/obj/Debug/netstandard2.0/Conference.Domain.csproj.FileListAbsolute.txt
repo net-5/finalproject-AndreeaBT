@@ -7,3 +7,12 @@ C:\Users\barbu\source\repos\Conference\Conference.Domain\obj\Debug\netstandard2.
 C:\Users\barbu\source\repos\Conference\Conference.Domain\bin\Debug\netstandard2.0\Conference.Domain.pdb
 C:\Users\barbu\source\repos\Conference\Conference.Domain\obj\Debug\netstandard2.0\Conference.Domain.dll
 C:\Users\barbu\source\repos\Conference\Conference.Domain\obj\Debug\netstandard2.0\Conference.Domain.pdb
+C:\Users\barbu\source\repos\Last Project\Conference\Conference.Domain\bin\Debug\netstandard2.0\Conference.Domain.deps.json
+C:\Users\barbu\source\repos\Last Project\Conference\Conference.Domain\bin\Debug\netstandard2.0\Conference.Domain.dll
+C:\Users\barbu\source\repos\Last Project\Conference\Conference.Domain\bin\Debug\netstandard2.0\Conference.Domain.pdb
+C:\Users\barbu\source\repos\Last Project\Conference\Conference.Domain\obj\Debug\netstandard2.0\Conference.Domain.csprojAssemblyReference.cache
+C:\Users\barbu\source\repos\Last Project\Conference\Conference.Domain\obj\Debug\netstandard2.0\Conference.Domain.csproj.CoreCompileInputs.cache
+C:\Users\barbu\source\repos\Last Project\Conference\Conference.Domain\obj\Debug\netstandard2.0\Conference.Domain.AssemblyInfoInputs.cache
+C:\Users\barbu\source\repos\Last Project\Conference\Conference.Domain\obj\Debug\netstandard2.0\Conference.Domain.AssemblyInfo.cs
+C:\Users\barbu\source\repos\Last Project\Conference\Conference.Domain\obj\Debug\netstandard2.0\Conference.Domain.dll
+C:\Users\barbu\source\repos\Last Project\Conference\Conference.Domain\obj\Debug\netstandard2.0\Conference.Domain.pdb
