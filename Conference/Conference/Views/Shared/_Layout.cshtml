@@ -19,8 +19,10 @@
         <link href="~/lib/font/css/all.min.css" rel="stylesheet" />
         <link href="~/lib/font/css/fontawesome.min.css" rel="stylesheet" />
         <link href="~/css/Index.css" rel="stylesheet" />
+        <script src="~/js/timer.js"></script>
+        <script src="~/js/site.js"></script>
     </head>
-    <body>
+    <body cz-shortcut-listen="true">
         <header>
             <nav class="navbar navbar-expand-lg navbar-dark navbar-default bg-mv">
                 <div class="container-fluid">
@@ -35,6 +37,7 @@
                             <li class="nav-item">
                                 <a class="nav-link" asp-area="" asp-controller="About" asp-action="Index">ABOUT</a>
                             </li>
+
                             <li class="nav-item">
                                 <a class="nav-link" asp-area="" asp-controller="Editions" asp-action="Index">EDITIONS</a>
                             </li>
@@ -48,10 +51,11 @@
                             <li class="nav-item">
                                 <a class="nav-link" asp-area="" asp-controller="Talks" asp-action="Index">TALKS</a>
                             </li>
+
                             <li class="nav-item">
                                 <a class="nav-link" asp-area="" asp-controller="Workshops" asp-action="Index">WORKSHOPS</a>
                             </li>
-                            
+
                             <li>
                                 <a class="nav-link" target="_blank" href="https://www.papercall.io/dotnetdaysro">CFP</a>
                             </li>
@@ -83,38 +87,39 @@
             </nav>
         </header>
 
+
         <div class="container">
             <div class="row parent">
-                
-               
+
+
             </div>
         </div>
 
-        
-            <partial name="_CookieConsentPartial" />
-            <main role="main" class="pb-3"  style="padding-bottom:0";>
-                @RenderBody()
-            </main>
-       
+
+        <partial name="_CookieConsentPartial" />
+        <main role="main" class="pb-3" style="padding-bottom:0" ;>
+            @RenderBody()
+        </main>
 
 
-            <div id="newsletter" class="">
-                <div class="newsletter-bg">
-                    <div class="col-md-4 offset-md-2 col-sm-12 offset-sm-0">
-                        <span class="title white float-right ">Stay tuned!</span>
-                        <span class="subtitle white float-right text-right">You’ll be the first to know when things get in motion or we have something new to share.</span>
 
-                    </div>
-                    <div class="col-md-6 col-sm-12">
-                        <div class="inputs">
-                            <input type="email" class="float-left col-sm-12 col-md-6 transparent" id="Email" name="Email" value="" placeholder="Email address*">
-                            <span id="result" class="white" style="display: none;">Please check your email to confirm subscription!</span>
-                            <button onclick="subscribe();" class="col-sm-12 col-md-6 btn btn-primary btn-small">Subscribe to our newsletter</button>
-                        </div>
-                    </div>
+        <div id="newsletter" class="">
+            <div class="newsletter-bg">
+                <div class="col-md-4 offset-md-2 col-sm-12 offset-sm-0">
+                    <span class="title white float-right ">Stay tuned!</span>
+                    <span class="subtitle white float-right text-right">You’ll be the first to know when things get in motion or we have something new to share.</span>
 
                 </div>
+                <div class="col-md-6 col-sm-12">
+                    <div class="inputs">
+                        <input type="email" class="float-left col-sm-12 col-md-6 transparent" id="Email" name="Email" value="" placeholder="Email address*">
+                        <span id="result" class="white" style="display: none;">Please check your email to confirm subscription!</span>
+                        <button onclick="subscribe();" class="col-sm-12 col-md-6 btn btn-primary btn-small">Subscribe to our newsletter</button>
+                    </div>
+                </div>
+
             </div>
+        </div>
 
 
 
@@ -157,15 +162,15 @@
                             </li>
                             <li class="social">
                                 <a href="https://twitter.com/dotnetdaysro" target="_blank">
-                                    
-                                        <img src="~/Images/descărcare.png"  width="40" />
-                                   
+
+                                    <img src="~/Images/descărcare.png" width="40" />
+
                                 </a>
                             </li>
                             <li class="social">
                                 <a href="https://meetup.com/NET-User-Group-Iasi/" target="_blank">
 
-                                    <img src="~/Images/meetup.png" class="fa-image" width="36"/>
+                                    <img src="~/Images/meetup.png" class="fa-image" width="36" />
                                 </a>
                             </li>
 
@@ -200,7 +205,7 @@
             </script>
         </environment>
         <script src="~/js/site.js" asp-append-version="true"></script>
-
+        <script type="text/javascript" asp-append-version="true"></script>
         @RenderSection("Scripts", required: false)
     </body>
     </html>

@@ -20,7 +20,6 @@ C:\Users\barbu\source\repos\Last Project\Conference\Conference.Services\bin\Debu
 C:\Users\barbu\source\repos\Last Project\Conference\Conference.Services\bin\Debug\netstandard2.0\Conference.Data.pdb
 C:\Users\barbu\source\repos\Last Project\Conference\Conference.Services\bin\Debug\netstandard2.0\Conference.Domain.pdb
 C:\Users\barbu\source\repos\Last Project\Conference\Conference.Services\obj\Debug\netstandard2.0\Conference.Services.csprojAssemblyReference.cache
-C:\Users\barbu\source\repos\Last Project\Conference\Conference.Services\obj\Debug\netstandard2.0\Conference.Services.csproj.CoreCompileInputs.cache
 C:\Users\barbu\source\repos\Last Project\Conference\Conference.Services\obj\Debug\netstandard2.0\Conference.Services.AssemblyInfoInputs.cache
 C:\Users\barbu\source\repos\Last Project\Conference\Conference.Services\obj\Debug\netstandard2.0\Conference.Services.AssemblyInfo.cs
 C:\Users\barbu\source\repos\Last Project\Conference\Conference.Services\obj\Debug\netstandard2.0\Conference.Services.csproj.CopyComplete

@@ -16,7 +16,6 @@ C:\Users\barbu\source\repos\Last Project\Conference\Conference.Data\bin\Debug\ne
 C:\Users\barbu\source\repos\Last Project\Conference\Conference.Data\bin\Debug\netstandard2.0\Conference.Domain.dll
 C:\Users\barbu\source\repos\Last Project\Conference\Conference.Data\bin\Debug\netstandard2.0\Conference.Domain.pdb
 C:\Users\barbu\source\repos\Last Project\Conference\Conference.Data\obj\Debug\netstandard2.0\Conference.Data.csprojAssemblyReference.cache
-C:\Users\barbu\source\repos\Last Project\Conference\Conference.Data\obj\Debug\netstandard2.0\Conference.Data.csproj.CoreCompileInputs.cache
 C:\Users\barbu\source\repos\Last Project\Conference\Conference.Data\obj\Debug\netstandard2.0\Conference.Data.AssemblyInfoInputs.cache
 C:\Users\barbu\source\repos\Last Project\Conference\Conference.Data\obj\Debug\netstandard2.0\Conference.Data.AssemblyInfo.cs
 C:\Users\barbu\source\repos\Last Project\Conference\Conference.Data\obj\Debug\netstandard2.0\Conference.Data.csproj.CopyComplete
