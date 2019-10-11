@@ -1,0 +1,101 @@
+﻿@model Conference.Domain.Entities.Sponsors
+
+@{
+    ViewData["Title"] = "Details";
+}
+<link href="~/css/Index.css" rel="stylesheet" />
+<link href="~/lib/font/css/all.min.css" rel="stylesheet" />
+<link href="~/lib/font/css/fontawesome.min.css" rel="stylesheet" />
+
+
+
+
+<div class="">
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-xs-12 col-md-2 offset-md-2 space-big space">
+                @if (Model.Name == "Fab Lab Iasi")
+                {
+                    <div>
+                        <img class="img-responsive img-fluid" src="~/Images/dark-fablab@2x.png" alt="Alternate Text">
+                    </div>
+                }
+                @if (Model.Name == ".Net Iasi")
+                {
+                    <div>
+                        <img class="img-responsive img-fluid" src="~/Images/dark-dotnetiasi.png" alt="Alternate Text">
+                    </div>
+                }
+                @if (Model.Name == "Microsoft")
+                {
+                    <div>
+                        <img class="img-responsive img-fluid" src="~/Images/dark-microsoft@2x.png" alt="Alternate Text">
+                    </div>
+                }
+                @if (Model.Name == "Scoala Informala de It")
+                {
+                    <div>
+                        <img class="img-responsive img-fluid" src="~/Images/dark-siit@2x.png" alt="Alternate Text">
+                    </div>
+                }
+
+            </div>
+            <div class="col-xs-12 col-md-5 space-big space">
+
+                <h1 class="title">@Html.DisplayFor(model => model.Name)</h1>
+                
+                <div class="speaker-socials blue">
+                    <ul>
+                        <li>
+                            <a target="_blank" class="link d-inline" href="https://twitter.com/fablab">
+                                <img src="~/Images/BlueTwitter.png" width="30" />
+                            </a>
+
+                        </li>
+                        <li>
+                            <a target="_blank" class="link d-inline" href="@Html.DisplayFor(model => model.Facebook)">
+                                <img src="~/Images/blueFacebook.jpg" width="30" />
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="text">
+                    @if (Model.Name == "Fab Lab Iasi")
+                    {
+                        <p>@Html.DisplayFor(model => model.Description)</p>
+                    }
+                    @if (Model.Name == ".Net Iasi")
+                    {
+                        <p>@Html.DisplayFor(model => model.Description)</p>
+                    }
+                    @if (Model.Name == "Microsoft")
+                    {
+                        <p>@Html.DisplayFor(model => model.Description)</p>
+                    }
+                    @if (Model.Name == "Scoala Informala de It")
+                    {
+                        <p>@Html.DisplayFor(model => model.Description)</p>
+                    }
+                    <a class="subtitle blue" asp-action="Index">Back to List</a>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-3 bg-mv text-center space">
+
+                    <div class="talk-title white text-left">
+                        
+
+                    </div>
+             
+                
+                <div style="height:15rem"></div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+

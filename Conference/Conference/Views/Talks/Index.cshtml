@@ -1,0 +1,56 @@
+﻿@model IEnumerable<Conference.Domain.Entities.Talks>
+
+@{
+    ViewData["Title"] = "Index";
+}
+    <link href="~/css/Index.css" rel="stylesheet" />
+<div class="">
+    <div class="container-fluid" id="about">
+        <h1 class="title mv">Talks</h1>
+    </div>
+</div>
+
+<div class="">
+    <div class="container-fluid">
+        <div class="row">
+            @foreach (var item in Model)
+            {
+                        @if (item.Name == "Cloud Computing Trends and Misconceptions")
+                         {
+                    <div class="col-xs-12 col-md-2 offset-md-2 space-big space">
+                        <div class="mv highlight">
+                            @Html.DisplayFor(modelItem => item.Name)
+                        </div>
+                        <div class="subtitle blue">
+                            @Html.ActionLink("Details", "Details", new { id = item.Id })
+                        </div>
+                    </div>
+                         }
+                        @if (item.Name == "Three steps to be awarded Microsoft MVP")
+                         {
+                            <div class="col-xs-12 col-md-2 offset-md-2 space-big space">
+                                <div class="mv highlight">
+                                    @Html.DisplayFor(modelItem => item.Name)
+                                </div>
+                                <div class="subtitle blue" >
+                                    @Html.ActionLink("Details", "Details", new { id = item.Id })
+                                </div>
+                            </div>
+                         }
+                            @if (item.Name == "A philosophy of software design")
+                             {
+                                <div class="col-xs-12 col-md-2 offset-md-2 space-big space">
+                                    <div class="mv highlight">
+                                        @Html.DisplayFor(modelItem => item.Name)
+                                    </div>
+                                    <div class="subtitle blue">
+                                        @Html.ActionLink("Details", "Details", new { id = item.Id })
+                                    </div>
+                                </div>
+                             }
+            }
+                    </div>
+    </div>
+</div>
+
+

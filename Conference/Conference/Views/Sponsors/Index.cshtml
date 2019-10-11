@@ -1,0 +1,59 @@
+﻿@model IEnumerable<Conference.Domain.Entities.Sponsors>
+
+@{
+    ViewData["Title"] = "Index";
+}
+    <link href="~/css/Index.css" rel="stylesheet" />
+<div class="">
+    <div class="container-fluid" id="about">
+        <h1 class="title mv">Sponsors</h1>
+    </div>
+</div>
+
+<div class="">
+    <div class="container">
+        <div class="row">
+            @foreach (var item in Model)
+            {
+                @if (item.Name == "Fab Lab Iasi")
+                {
+                    <div class="col-sm-8 col-lg-6" >
+                       
+                            <a class="link"  asp-action="Details" asp-route-id="@item.Id">
+                                <img src="~/Images/dark-fablab@2x.png"/>
+                            </a>
+                       
+                    </div>
+                }
+                @if (item.Name == ".Net Iasi")
+                {
+                    <div class="col-sm-8 col-lg-6">
+                        <a class="link" asp-action="Details" asp-route-id="@item.Id">
+                            <img src="~/Images/dark-dotnetiasi.png" />
+                        </a>
+                    </div>
+                }
+                @if (item.Name == "Microsoft")
+                {
+                    <div class="col-sm-8 col-lg-6">
+                        <a class="link" asp-action="Details" asp-route-id="@item.Id">
+                            <img src="~/Images/dark-microsoft@2x.png" />
+                        </a>
+                    </div>
+                }
+                @if (item.Name == "Scoala Informala de It")
+                {
+                    <div class="col-sm-8 col-lg-6">
+                        <a class="link" asp-action="Details" asp-route-id="@item.Id">
+                            <img src="~/Images/dark-siit@2x.png" />
+                        </a>
+                    </div>
+                }
+
+            }
+
+
+        </div>
+
+    </div>
+</div>
